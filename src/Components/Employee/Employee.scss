@@ -1,0 +1,17 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.tiles{
+  border: 2px solid $color-blue;
+  height: 400px;
+  width: 300px;
+  border-radius: 15px;
+  background-color: $color-blue;
+  padding: 10px;
+  line-height: 50px;
+  h3{
+    font-size: 20px;
+    color: $color-primary;
+    font-weight: 400;
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,17 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.counter{
+  //background-color: $color-secondary;
+  color: $color-primary;
+  margin: 40px 0;
+  &__button{
+    display: flex;
+    justify-content: space-evenly;
+    button{
+      font-size: 20px;
+      padding: 10px;
+      background-color: transparent;
+      
+    }
+  }
+}
