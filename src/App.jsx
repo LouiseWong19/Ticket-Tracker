@@ -1,22 +1,29 @@
 import './App.scss';
 import team from "./data/team";
-import Tile from "./Components/Employee/Employee";
+import EmployeeTile from "./Components/Employee/Employee";
+
 
 
 const App = () => {
-  console.log(team)
+  const employeeNames = team.map((names)=>{
+    return names.name;
+  });
+  console.log(employeeNames)
 
-  // const boxes = () => {
-  //   for (let i=0; i < team.length; i++){
-  //     <Tile employeeName= {team[i].name}  employeeRole = {team[i].role}/>
-  //   }
-  // }
+  const employeeRoles = team.map((roles)=>{
+    return roles.role;
+  });
+  console.log(employeeRoles)
 
   return (
     <div className="app">
       <h1>Ticket Tracker</h1>
       <section className="tickets">
-        <Tile employeeName= {team[0].name}  employeeRole = {team[0].role}/>
+        <div>
+          {team.map((employee)=>{
+            return <EmployeeTile name = {employee.name} role = {employee.role}/>
+          })}
+        </div>
       </section>
 
     </div>
