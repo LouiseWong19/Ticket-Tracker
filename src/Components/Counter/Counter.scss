@@ -3,15 +3,21 @@
 .counter{
   //background-color: $color-secondary;
   color: $color-primary;
-  margin: 40px 0;
+  margin: 20px 0;
   &__button{
     display: flex;
     justify-content: space-evenly;
     button{
       font-size: 20px;
-      padding: 10px;
-      background-color: transparent;
+      height: 44px;
+      width: 40px;
+      background-color: #E7E6E1;
+      border-radius: 10px;
+      border: 1px solid #E7E6E1;
       
     }
+  }
+  h4{
+    font-size:20px
   }
 }
