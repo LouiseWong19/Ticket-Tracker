@@ -11,21 +11,25 @@
   font-size: 25px;
   font-family: 'Work Sans', sans-serif;
 
-  .nav-bar{
+  // NAV BAR
+  .nav{
     height: 100px;
     margin-bottom: 20px;
     background-color: $color-blue;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    .title{
+    
+    &__title{
       color: $color-primary;
       margin-left: 20px;
     }
     
   }
+  // TICKETS
   .tickets{
-    .employee-tiles{
+    
+    &__employee-tiles{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;

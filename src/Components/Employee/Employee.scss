@@ -1,5 +1,6 @@
 @use "../../assets/sass/_variables.scss" as *;
 
+// TILES
 .tiles{
   border: 2px solid $color-blue;
   height: 360px;
@@ -8,16 +9,18 @@
   background-color: $color-blue;
   padding: 10px;
   line-height: 50px;
-
-  .employeeDetail{
+  
+  // EMPLOYEE NAME
+  &__employeeDetail{
     margin-top: 20px;
-    .employeeName{
+    &--employeeName{
       font-size: 20px;
       color: $color-primary;
       font-weight: 400;
     }
-  
-    .employeeRole{
+    
+    //EMPLOYEE ROLE
+    &--employeeRole{
       font-size: 17px;
       color: $color-primary;
       font-weight: 400;

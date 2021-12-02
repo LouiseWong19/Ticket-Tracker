@@ -10,9 +10,9 @@ const EmployeeTile = (props) => {
   return (
   <>
   <div className = "tiles">
-    <div className = "employeeDetail">
-      <h3 className="employeeName">{name}</h3>
-      <h3 className="employeeRole">{role}</h3>
+    <div className = "tiles__employeeDetail">
+      <h3 className="tiles__employeeDetail--employeeName">{name}</h3>
+      <h3 className="tiles__employeeDetail--employeeRole">{role}</h3>
     </div>
     <Counter />
   </div>

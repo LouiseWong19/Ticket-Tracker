@@ -17,11 +17,11 @@ const App = () => {
 
   return (
     <div className="app">
-      <nav className="nav-bar">
-        <h1 className="title">Ticket Tracker.</h1>
+      <nav className="nav">
+        <h1 className="nav__title">Ticket Tracker.</h1>
       </nav>
       <section className="tickets">
-        <div className="employee-tiles">
+        <div className="tickets__employee-tiles">
           {team.map((employee)=>{
             return <EmployeeTile name = {employee.name} role = {employee.role}/>
           })}
