@@ -10,6 +10,7 @@
   text-align: center;
   font-size: 25px;
   font-family: 'Work Sans', sans-serif;
+  margin-bottom: 20px;
 
   // NAV BAR
   .nav{
@@ -25,15 +26,5 @@
       margin-left: 20px;
     }
     
-  }
-  // TICKETS
-  .tickets{
-    
-    &__employee-tiles{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
   }
 }

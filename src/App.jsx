@@ -1,6 +1,6 @@
 import './App.scss';
 import team from "./data/team";
-import EmployeeTile from "./Components/Employee/Employee";
+import EmployeeTiles from './Components/EmployeeTiles/EmployeeTiles';
 
 
 
@@ -12,11 +12,7 @@ const App = () => {
         <h1 className="nav__title">Ticket Tracker.</h1>
       </nav>
       <section className="tickets">
-        <div className="tickets__employee-tiles">
-          {team.map((employee)=>{
-            return <EmployeeTile name = {employee.name} role = {employee.role}/>
-          })}
-        </div>
+        <EmployeeTiles team={team}/>
       </section>
 
     </div>

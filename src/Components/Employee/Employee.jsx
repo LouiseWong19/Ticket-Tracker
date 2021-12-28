@@ -3,16 +3,16 @@ import './Employee.scss';
 import Counter from "../Counter/Counter";
 
 
-const EmployeeTile = (props) => {
+const Employee = (props) => {
   const {name,role} = props
-  console.log(name)
+  //console.log(name)
 
   return (
   <>
-  <div className = "tiles">
-    <div className = "tiles__employeeDetail">
-      <h3 className="tiles__employeeDetail--employeeName">{name}</h3>
-      <h3 className="tiles__employeeDetail--employeeRole">{role}</h3>
+  <div className = "employee">
+    <div className = "employee__detail">
+      <h3 className="employee__detail--name">{name}</h3>
+      <h3 className="employee__detail--role">{role}</h3>
     </div>
     <Counter />
   </div>
@@ -21,4 +21,4 @@ const EmployeeTile = (props) => {
 };
 
 
-export default EmployeeTile;
+export default Employee;
