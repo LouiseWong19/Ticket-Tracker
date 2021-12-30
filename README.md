@@ -2,7 +2,7 @@
 ### Author - Louise Wong
 
 ## Introduction
-A ticket tracker which allows user to keep track of all the tickets the staff members had completed. The user is able to add and minus the number of tickets accordingly. 
+A ticket tracker which allows users to keep track of all the tickets the staff members had completed. The user can add and minus the number of tickets accordingly. 
 
 ### Technology Used:
 - React
@@ -21,6 +21,6 @@ Three components have been created:
 - `Counter`
 - `Employee`
 - `EmployeeTiles`
-The `Counter` component includes a `useState` to create a counter which allows user to press - or + button to decrement or increment the counter by 1.
+The `Counter` component includes a `useState` to create a counter which allows the user to press - or + button to decrement or increment the counter by 1.
 The `Employee` component is created to include the employee detail such as name and their role. The `EmployeeTiles` component is created to map out the employee ticket tiles with employee details taken from `team.js` data file.
 
